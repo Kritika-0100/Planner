@@ -1,0 +1,18 @@
+/* Default Theme */
+body {
+    background-color: white;
+    color: black;
+    font-family: Arial, sans-serif;
+}
+
+/* Teddy Theme */
+body.theme-teddy {
+    background-image: url('/static/images/teddy-bg.jpg');
+    color: #5D4037;
+}
+
+/* Flowers Theme */
+body.theme-flowers {
+    background-image: url('/static/images/flowers-bg.jpg');
+    color: #388E3C;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Teddy & Flowers Planner</a>
+        <!-- Add the rest of the navbar here -->
+    </nav>
+
+    <div class="container mt-5">
+        <h2>Your To-Do List</h2>
+        <input type="text" id="new-task" class="form-control" placeholder="Add a new task...">
+        <button id="add-task" class="btn btn-primary mt-2">Add Task</button>
+
+        <ul id="task-list" class="list-group mt-3">
+            <!-- Tasks will be dynamically added here -->
+        </ul>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    <script src="todo.js"></script>
+</body>
+</html>
